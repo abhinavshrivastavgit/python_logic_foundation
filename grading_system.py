@@ -9,9 +9,9 @@ for i in range(0,value_lenght):
 
 #adding condition and condition checking
 for s in scores:
-  if s>90:
+  if s>=90:
     print(f'You had scored: {s}, and secured Grade A')
-  elif 89>s>70:
+  elif 89>s>=70:
     print(f'You had scored: {s}, and secured Grade B')
   else:
     print(f'You had scored: {s}, and You need Improvement')
