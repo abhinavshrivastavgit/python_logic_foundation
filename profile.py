@@ -11,3 +11,10 @@ profile[1] = 26
 
 # 4. PRINT the final profile LIST
 print(f'My Updated profile: {profile}')
+
+# Hint: Use the 'in' keyword
+if "Python" in profile:
+    # Your code here...
+    print(f'Skill Verified: Ready for interveiw')
+else:
+    print('Need more training')
