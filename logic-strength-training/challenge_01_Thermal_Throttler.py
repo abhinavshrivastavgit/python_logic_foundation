@@ -14,4 +14,4 @@ for temp in gpu_temps:
     if temp >80:
         print(f'Slow Down your CPU temp is: {temp}')
     else:
-     print(f'Keep running your CPU temp is:{temp}')
+        print(f'Keep running your CPU temp is:{temp}')
